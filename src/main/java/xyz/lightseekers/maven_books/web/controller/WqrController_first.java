@@ -12,9 +12,9 @@ import xyz.lightseekers.maven_books.util.Message;
 import xyz.lightseekers.maven_books.util.MessageUtil;
 
 @RestController
-@RequestMapping("/Wqr")
+@RequestMapping("/Wqr1")
 @Api(description = "王秋润1号的图书管理控制器")
-public class WqrController {
+public class WqrController_first {
     //添加
     @PostMapping("/add")
     @ApiOperation(value = "添加图书")
