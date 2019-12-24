@@ -13,7 +13,7 @@ import xyz.lightseekers.maven_books.util.Message;
 import xyz.lightseekers.maven_books.util.MessageUtil;
 
 @RestController
-@RequestMapping("/Wcy")
+@RequestMapping("/wcy")
 @Api(description = "翁承煜的图书信息控制")
 public class WcyController {
     @PostMapping("/add")
