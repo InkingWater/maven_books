@@ -1,9 +1,16 @@
 package xyz.lightseekers.maven_books.bean;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 public class WcyBook {
+    @ApiModelProperty(value = "图书名称")
     private String name;
+    @ApiModelProperty(value = "图书编号")
     private String ID;
+    @ApiModelProperty(value = "图书价格")
     private double val;
+    @ApiModelProperty(value = "图书数量")
     private int num;
 
     public String getName() {
