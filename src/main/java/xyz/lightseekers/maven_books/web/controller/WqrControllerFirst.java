@@ -14,7 +14,7 @@ import xyz.lightseekers.maven_books.util.MessageUtil;
 @RestController
 @RequestMapping("/wqr1")
 @Api(description = "王秋润1号的图书管理控制器")
-public class WqrController_first {
+public class WqrControllerFirst {
     //添加
     @PostMapping("/add")
     @ApiOperation(value = "添加图书")

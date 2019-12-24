@@ -18,6 +18,14 @@ public class JzlBook implements Serializable {
     @ApiModelProperty(value = "图书名")
     private String name;
 
+    public JzlBook() {
+    }
+
+    public JzlBook(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "JzlBook{" +
