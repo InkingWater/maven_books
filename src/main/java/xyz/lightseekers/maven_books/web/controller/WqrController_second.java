@@ -12,7 +12,7 @@ import xyz.lightseekers.maven_books.util.Message;
 import xyz.lightseekers.maven_books.util.MessageUtil;
 
 @RestController
-@RequestMapping("Wqr2")
+@RequestMapping("wqr2")
 @Api(description = "王秋润2号的图书管理控制器")
 public class WqrController_second {
     //添加
